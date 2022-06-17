@@ -6,3 +6,5 @@ Tecnologías:
 -HTML
 -CSS
 JavaScript
+
+https://misaelvc.github.io/portafolio-cv/index.html
