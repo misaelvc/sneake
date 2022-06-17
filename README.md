@@ -7,4 +7,4 @@ Tecnologías:
 -CSS
 JavaScript
 
-https://misaelvc.github.io/portafolio-cv/index.html
+https://misaelvc.github.io/sneake/index.html
