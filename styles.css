@@ -1,0 +1,70 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Barrio&family=Josefin+Sans:wght@400;500;600&family=Koulen&family=Modak&family=Poppins:wght@400;500;600&family=Reem+Kufi:wght@400;500;600&family=Rubik+Wet+Paint&family=Sirin+Stencil&family=Train+One&family=ZCOOL+KuaiLe&display=swap");
+
+* {
+  font-family: "Koulen", cursive;
+  background-color: #a3a9ad;
+}
+
+#board,
+#gameOver,
+.boardInfo {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+#start,
+.boardInfo {
+  font-size: 25px;
+}
+
+#gameOver {
+  display: none;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.boardInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#start {
+  background-color: #fd213a;
+  border: none;
+  color: #fffbf4;
+  border-radius: 20%;
+}
+
+#scoreBoard {
+  display: inline-flex;
+}
+
+.square {
+  aspect-ratio: 1;
+}
+
+.emptySquare {
+  background-color: #2e3048;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snakeSquare {
+  background-color: #ff73c5;
+  border: 1px solid #f8efeb;
+}
+
+.foodSquare {
+  background-color: #00aacf;
+  border: 1px solid #f8efeb;
+}
